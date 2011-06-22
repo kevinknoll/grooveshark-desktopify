@@ -1,0 +1,10 @@
+{
+    "name": "grooveshark-desktopify",
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+    "author": "Kevin Knoll (http://www.kevinknoll.com)",
+    "version": "0.1",
+    "fullName": "Grooveshark Desktopify",
+    "id": "jid1-cIlA2dkGT8ECvg",
+    "description": "Redirects http://grooveshark.com links to the Grooveshark Desktop App. (Requires the GSDesktopHelper)",
+    "icon": "data/icon.png"
+}
