@@ -1,1 +1,26 @@
-<button id="btn">Desktopify!</button>
+<style>
+  div { background:#fff; border-radius:5px; color:#333; font:12px sans-serif; height:100%; position:relative; text-align:center; }
+  img { margin:10px; }
+  h1 { font-size:15px; margin-bottom:15px; }
+  button { 
+    background-color:#36a5e2; border:0; border-radius:5px; color:rgba(255,255,255,0.8); cursor:pointer; padding:8px;
+    background-image:-moz-linear-gradient(center top, rgba(66,222,242,0.7) 0%, rgba(53,137,182,0.9) 100%);
+    -moz-transition:background ease-in-out .2s;
+  }
+  button:hover { background-color:#12618c; }
+  button:active { background-color:#044467; }
+  span { display:block; margin:10px 0; }
+  a { color:#36a5e2; }
+  a:hover { color:#12618c; text-decoration:none; }
+  a:active { color:#044467; }
+  .credits { bottom:0; font-size:10px; left:0; position:absolute; text-align:center; width:100%; }
+</style>
+<div>
+  <img src="logo.png" width="231" height="35" alt="Grooveshark Logo">
+  <h1>We&rsquo;ve got a couple options here, bud.</h1>
+  <p>
+    <span><button id="btn">Open with the Grooveshark Desktop app!</button></span>
+    or <a href="#">Continue to Grooveshark.com</a>
+  </p>
+  <p class="credits">Powered by <a href="#">Grooveshark Desktopify</a></p>
+</div>
